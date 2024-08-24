@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="330.997" tests="12" errors="0" skipped="0" failures="6">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="111.634" tests="12" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="22"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.class.path" value="/home/himanshu/Desktop/B36-SPR101-JAVA/TestNG_Cucumber/target/test-classes:/home/himanshu/Desktop/B36-SPR101-JAVA/TestNG_Cucumber/target/classes:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-java/4.23.0/selenium-java-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-api/4.23.0/selenium-api-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.23.0/selenium-chrome-driver-4.23.0.jar:/home/himanshu/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.23.0/selenium-chromium-driver-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-json/4.23.0/selenium-json-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.23.0/selenium-manager-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v125/4.23.0/selenium-devtools-v125-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v126/4.23.0/selenium-devtools-v126-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v127/4.23.0/selenium-devtools-v127-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.23.0/selenium-devtools-v85-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.23.0/selenium-edge-driver-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.23.0/selenium-firefox-driver-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-http/4.23.0/selenium-http-4.23.0.jar:/home/himanshu/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.23.0/selenium-ie-driver-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.23.0/selenium-remote-driver-4.23.0.jar:/home/himanshu/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/home/himanshu/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/home/himanshu/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/himanshu/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/himanshu/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/home/himanshu/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/home/himanshu/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/home/himanshu/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/home/himanshu/.m2/repository/io/opentelemetry/opentelemetry-api/1.40.0/opentelemetry-api-1.40.0.jar:/home/himanshu/.m2/repository/io/opentelemetry/opentelemetry-context/1.40.0/opentelemetry-context-1.40.0.jar:/home/himanshu/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.40.0/opentelemetry-exporter-logging-1.40.0.jar:/home/himanshu/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.40.0/opentelemetry-sdk-common-1.40.0.jar:/home/himanshu/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.40.0/opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar:/home/himanshu/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.40.0/opentelemetry-sdk-extension-autoconfigure-1.40.0.jar:/home/himanshu/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.40.0-alpha/opentelemetry-api-incubator-1.40.0-alpha.jar:/home/himanshu/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.40.0/opentelemetry-sdk-trace-1.40.0.jar:/home/himanshu/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.40.0/opentelemetry-sdk-1.40.0.jar:/home/himanshu/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.40.0/opentelemetry-sdk-metrics-1.40.0.jar:/home/himanshu/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.40.0/opentelemetry-sdk-logs-1.40.0.jar:/home/himanshu/.m2/repository/net/bytebuddy/byte-buddy/1.14.18/byte-buddy-1.14.18.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-os/4.23.0/selenium-os-4.23.0.jar:/home/himanshu/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.23.0/selenium-safari-driver-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-support/4.23.0/selenium-support-4.23.0.jar:/home/himanshu/.m2/repository/io/cucumber/cucumber-java/7.18.1/cucumber-java-7.18.1.jar:/home/himanshu/.m2/repository/io/cucumber/cucumber-core/7.18.1/cucumber-core-7.18.1.jar:/home/himanshu/.m2/repository/io/cucumber/cucumber-gherkin/7.18.1/cucumber-gherkin-7.18.1.jar:/home/himanshu/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.18.1/cucumber-gherkin-messages-7.18.1.jar:/home/himanshu/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/home/himanshu/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/home/himanshu/.m2/repository/io/cucumber/testng-xml-formatter/0.2.0/testng-xml-formatter-0.2.0.jar:/home/himanshu/.m2/repository/io/cucumber/query/12.2.0/query-12.2.0.jar:/home/himanshu/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/home/himanshu/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/home/himanshu/.m2/repository/io/cucumber/datatable/7.18.1/datatable-7.18.1.jar:/home/himanshu/.m2/repository/io/cucumber/cucumber-plugin/7.18.1/cucumber-plugin-7.18.1.jar:/home/himanshu/.m2/repository/io/cucumber/docstring/7.18.1/docstring-7.18.1.jar:/home/himanshu/.m2/repository/io/cucumber/html-formatter/21.4.1/html-formatter-21.4.1.jar:/home/himanshu/.m2/repository/io/cucumber/junit-xml-formatter/0.5.0/junit-xml-formatter-0.5.0.jar:/home/himanshu/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/home/himanshu/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/himanshu/.m2/repository/io/cucumber/cucumber-testng/7.18.1/cucumber-testng-7.18.1.jar:/home/himanshu/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/home/himanshu/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/himanshu/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/himanshu/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
     <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.vm.specification.version" value="11"/>
     <property name="os.name" value="Linux"/>
-    <property name="java.vm.specification.version" value="22"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-22.0.2-oracle-x64/lib"/>
-    <property name="sun.java.command" value="/home/himanshu/Desktop/B36-SPR101-JAVA/TestNG_Cucumber/target/surefire/surefirebooter-20240813232737183_3.jar /home/himanshu/Desktop/B36-SPR101-JAVA/TestNG_Cucumber/target/surefire 2024-08-13T23-27-36_407-jvmRun1 surefire-20240813232737183_1tmp surefire_0-20240813232737183_2tmp"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/himanshu/Desktop/B36-SPR101-JAVA/TestNG_Cucumber/target/surefire/surefirebooter-20240825000010773_3.jar /home/himanshu/Desktop/B36-SPR101-JAVA/TestNG_Cucumber/target/surefire 2024-08-25T00-00-08_236-jvmRun1 surefire-20240825000010773_1tmp surefire_0-20240825000010773_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/himanshu/Desktop/B36-SPR101-JAVA/TestNG_Cucumber/target/test-classes:/home/himanshu/Desktop/B36-SPR101-JAVA/TestNG_Cucumber/target/classes:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-java/4.23.0/selenium-java-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-api/4.23.0/selenium-api-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.23.0/selenium-chrome-driver-4.23.0.jar:/home/himanshu/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.23.0/selenium-chromium-driver-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-json/4.23.0/selenium-json-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.23.0/selenium-manager-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v125/4.23.0/selenium-devtools-v125-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v126/4.23.0/selenium-devtools-v126-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v127/4.23.0/selenium-devtools-v127-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.23.0/selenium-devtools-v85-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.23.0/selenium-edge-driver-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.23.0/selenium-firefox-driver-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-http/4.23.0/selenium-http-4.23.0.jar:/home/himanshu/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.23.0/selenium-ie-driver-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.23.0/selenium-remote-driver-4.23.0.jar:/home/himanshu/.m2/repository/com/google/guava/guava/33.2.1-jre/guava-33.2.1-jre.jar:/home/himanshu/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/home/himanshu/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/himanshu/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/himanshu/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/home/himanshu/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/home/himanshu/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/home/himanshu/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/home/himanshu/.m2/repository/io/opentelemetry/opentelemetry-api/1.40.0/opentelemetry-api-1.40.0.jar:/home/himanshu/.m2/repository/io/opentelemetry/opentelemetry-context/1.40.0/opentelemetry-context-1.40.0.jar:/home/himanshu/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.40.0/opentelemetry-exporter-logging-1.40.0.jar:/home/himanshu/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.40.0/opentelemetry-sdk-common-1.40.0.jar:/home/himanshu/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.40.0/opentelemetry-sdk-extension-autoconfigure-spi-1.40.0.jar:/home/himanshu/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.40.0/opentelemetry-sdk-extension-autoconfigure-1.40.0.jar:/home/himanshu/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.40.0-alpha/opentelemetry-api-incubator-1.40.0-alpha.jar:/home/himanshu/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.40.0/opentelemetry-sdk-trace-1.40.0.jar:/home/himanshu/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.40.0/opentelemetry-sdk-1.40.0.jar:/home/himanshu/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.40.0/opentelemetry-sdk-metrics-1.40.0.jar:/home/himanshu/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.40.0/opentelemetry-sdk-logs-1.40.0.jar:/home/himanshu/.m2/repository/net/bytebuddy/byte-buddy/1.14.18/byte-buddy-1.14.18.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-os/4.23.0/selenium-os-4.23.0.jar:/home/himanshu/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.23.0/selenium-safari-driver-4.23.0.jar:/home/himanshu/.m2/repository/org/seleniumhq/selenium/selenium-support/4.23.0/selenium-support-4.23.0.jar:/home/himanshu/.m2/repository/io/cucumber/cucumber-java/7.18.1/cucumber-java-7.18.1.jar:/home/himanshu/.m2/repository/io/cucumber/cucumber-core/7.18.1/cucumber-core-7.18.1.jar:/home/himanshu/.m2/repository/io/cucumber/cucumber-gherkin/7.18.1/cucumber-gherkin-7.18.1.jar:/home/himanshu/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.18.1/cucumber-gherkin-messages-7.18.1.jar:/home/himanshu/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/home/himanshu/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/home/himanshu/.m2/repository/io/cucumber/testng-xml-formatter/0.2.0/testng-xml-formatter-0.2.0.jar:/home/himanshu/.m2/repository/io/cucumber/query/12.2.0/query-12.2.0.jar:/home/himanshu/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/home/himanshu/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/home/himanshu/.m2/repository/io/cucumber/datatable/7.18.1/datatable-7.18.1.jar:/home/himanshu/.m2/repository/io/cucumber/cucumber-plugin/7.18.1/cucumber-plugin-7.18.1.jar:/home/himanshu/.m2/repository/io/cucumber/docstring/7.18.1/docstring-7.18.1.jar:/home/himanshu/.m2/repository/io/cucumber/html-formatter/21.4.1/html-formatter-21.4.1.jar:/home/himanshu/.m2/repository/io/cucumber/junit-xml-formatter/0.5.0/junit-xml-formatter-0.5.0.jar:/home/himanshu/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/home/himanshu/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/himanshu/.m2/repository/io/cucumber/cucumber-testng/7.18.1/cucumber-testng-7.18.1.jar:/home/himanshu/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/home/himanshu/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/home/himanshu/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/home/himanshu/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -21,40 +24,41 @@
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.version.date" value="2024-07-16"/>
-    <property name="java.home" value="/usr/lib/jvm/jdk-22.0.2-oracle-x64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
     <property name="file.separator" value="/"/>
     <property name="basedir" value="/home/himanshu/Desktop/B36-SPR101-JAVA/TestNG_Cucumber"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/himanshu/Desktop/B36-SPR101-JAVA/TestNG_Cucumber/target/surefire/surefirebooter-20240813232737183_3.jar"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/himanshu/Desktop/B36-SPR101-JAVA/TestNG_Cucumber/target/surefire/surefirebooter-20240825000010773_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="22.0.2+9-70"/>
+    <property name="java.runtime.version" value="11.0.24+8-post-Ubuntu-1ubuntu322.04"/>
     <property name="user.name" value="himanshu"/>
-    <property name="stdout.encoding" value="UTF-8"/>
     <property name="path.separator" value=":"/>
-    <property name="os.version" value="5.15.0-118-generic"/>
-    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="os.version" value="5.15.0-119-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
-    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="localRepository" value="/home/himanshu/.m2/repository"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
     <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="java.version" value="22.0.2"/>
+    <property name="java.version" value="11.0.24"/>
     <property name="user.dir" value="/home/himanshu/Desktop/B36-SPR101-JAVA/TestNG_Cucumber"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="native.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="stderr.encoding" value="UTF-8"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="22.0.2+9-70"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.24+8-post-Ubuntu-1ubuntu322.04"/>
+    <property name="java.specification.maintenance.version" value="2"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="66.0"/>
+    <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="runScenario[&quot;To validate the Simple form functionality&quot;, &quot;Simple form feature&quot;](1)" classname="runner.SForm_TestRunner" time="39.923">
+  <testcase name="runScenario[&quot;To validate the Simple form functionality&quot;, &quot;Simple form feature&quot;](1)" classname="runner.SForm_TestRunner" time="30.436">
     <system-out><![CDATA[Thank You for reaching out to us, Gabbar Singh
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
@@ -62,186 +66,48 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;To validate the Simple form functionality with multiple test data&quot;, &quot;Simple form feature&quot;](2)" classname="runner.SForm_TestRunner" time="8.472">
+  <testcase name="runScenario[&quot;To validate the Simple form functionality with multiple test data&quot;, &quot;Simple form feature&quot;](2)" classname="runner.SForm_TestRunner" time="7.797">
     <system-out><![CDATA[Thank You for reaching out to us, Sambha Daku
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;To validate the Simple form functionality with multiple test data&quot;, &quot;Simple form feature&quot;](3)" classname="runner.SForm_TestRunner" time="8.349">
+  <testcase name="runScenario[&quot;To validate the Simple form functionality with multiple test data&quot;, &quot;Simple form feature&quot;](3)" classname="runner.SForm_TestRunner" time="7.65">
     <system-out><![CDATA[Thank You for reaching out to us, Basanti TangAWali
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;To validate the Simple form functionality with multiple test data&quot;, &quot;Simple form feature&quot;](4)" classname="runner.SForm_TestRunner" time="7.823">
+  <testcase name="runScenario[&quot;To validate the Simple form functionality with multiple test data&quot;, &quot;Simple form feature&quot;](4)" classname="runner.SForm_TestRunner" time="9.849">
     <system-out><![CDATA[Thank You for reaching out to us, Veeru Thug
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;To validate the Simple form functionality with multiple test data&quot;, &quot;Simple form feature&quot;](5)" classname="runner.SForm_TestRunner" time="6.496">
+  <testcase name="runScenario[&quot;To validate the Simple form functionality with multiple test data&quot;, &quot;Simple form feature&quot;](5)" classname="runner.SForm_TestRunner" time="7.598">
     <system-out><![CDATA[Thank You for reaching out to us, Jai Thug
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;To validate the Simple form functionality with multiple test data&quot;, &quot;Simple form feature&quot;](6)" classname="runner.SForm_TestRunner" time="7.33">
+  <testcase name="runScenario[&quot;To validate the Simple form functionality with multiple test data&quot;, &quot;Simple form feature&quot;](6)" classname="runner.SForm_TestRunner" time="6.188">
     <system-out><![CDATA[Thank You for reaching out to us, Thakur Kanna
 ]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;To validate the Second Opinion functionality&quot;, &quot;Second Opinion link&quot;](1)" classname="runner.TestRunner" time="22.493">
-    <failure message="element click intercepted: Element is not clickable at point (645, 696)&#10;  (Session info: chrome=126.0.6478.182)&#10;Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-118-generic&apos;, java.version: &apos;22.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [1060f559e0cd5bf628ae6fb3ee35dcfa, clickElement {id=f.038330BDD26EFE0181FC6DB754FD2012.d.F78419E98F4FB90E699715C57BF559A6.e.176}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:37915}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:37915/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on linux (1060f559e0cd5bf628ae6fb3ee35dcfa)] -&gt; id: secondopinion_submit]&#10;Session ID: 1060f559e0cd5bf628ae6fb3ee35dcfa" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element is not clickable at point (645, 696)
-  (Session info: chrome=126.0.6478.182)
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-118-generic', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [1060f559e0cd5bf628ae6fb3ee35dcfa, clickElement {id=f.038330BDD26EFE0181FC6DB754FD2012.d.F78419E98F4FB90E699715C57BF559A6.e.176}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:37915}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:37915/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on linux (1060f559e0cd5bf628ae6fb3ee35dcfa)] -> id: secondopinion_submit]
-Session ID: 1060f559e0cd5bf628ae6fb3ee35dcfa
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at steps.SecondOpinionSteps.write_a_message_and_click_on_send_button(SecondOpinionSteps.java:83)
-	at ✽.write a message and click on send button(file:///home/himanshu/Desktop/B36-SPR101-JAVA/TestNG_Cucumber/src/test/resources/SparshHospital%20Testing/SecondOpinion.feature:11)
-]]></failure>
+  <testcase name="runScenario[&quot;To validate the Simple form functionality&quot;, &quot;Simple form feature&quot;](1)" classname="steps.SForm_TestRunner" time="6.298">
+    <system-out><![CDATA[Thank You for reaching out to us, Gabbar Singh
+]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;To validate the Second Opinion functionality with multiple test data&quot;, &quot;Second Opinion link&quot;](2)" classname="runner.TestRunner" time="29.86">
-    <failure message="element click intercepted: Element is not clickable at point (645, 698)&#10;  (Session info: chrome=126.0.6478.182)&#10;Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-118-generic&apos;, java.version: &apos;22.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [28a11993db922cfada3a3e06d82341ab, clickElement {id=f.023BF6A00371138B54C5ED00C5D5B1DA.d.113B513B26218307347555FCF2B2050F.e.179}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43589}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:43589/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on linux (28a11993db922cfada3a3e06d82341ab)] -&gt; id: secondopinion_submit]&#10;Session ID: 28a11993db922cfada3a3e06d82341ab" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element is not clickable at point (645, 698)
-  (Session info: chrome=126.0.6478.182)
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-118-generic', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [28a11993db922cfada3a3e06d82341ab, clickElement {id=f.023BF6A00371138B54C5ED00C5D5B1DA.d.113B513B26218307347555FCF2B2050F.e.179}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:43589}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:43589/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on linux (28a11993db922cfada3a3e06d82341ab)] -> id: secondopinion_submit]
-Session ID: 28a11993db922cfada3a3e06d82341ab
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at steps.SecondOpinionSteps.write_a_message_and_click_on_send_button(SecondOpinionSteps.java:83)
-	at ✽.write a message and click on send button(file:///home/himanshu/Desktop/B36-SPR101-JAVA/TestNG_Cucumber/src/test/resources/SparshHospital%20Testing/SecondOpinion.feature:20)
-]]></failure>
+  <testcase name="runScenario[&quot;To validate the Simple form functionality with multiple test data&quot;, &quot;Simple form feature&quot;](2)" classname="steps.SForm_TestRunner" time="6.86">
+    <system-out><![CDATA[Thank You for reaching out to us, Sambha Daku
+]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;To validate the Second Opinion functionality with multiple test data&quot;, &quot;Second Opinion link&quot;](3)" classname="runner.TestRunner" time="43.418">
-    <failure message="element click intercepted: Element is not clickable at point (645, 698)&#10;  (Session info: chrome=126.0.6478.182)&#10;Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-118-generic&apos;, java.version: &apos;22.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [2d7047816baa98bad97d3209839b4e75, clickElement {id=f.7EC188200D782F0C66A100256FE30C8F.d.0729DEB937EBAED5C1CF6692355F8274.e.183}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:34373/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on linux (2d7047816baa98bad97d3209839b4e75)] -&gt; id: secondopinion_submit]&#10;Session ID: 2d7047816baa98bad97d3209839b4e75" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element is not clickable at point (645, 698)
-  (Session info: chrome=126.0.6478.182)
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-118-generic', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2d7047816baa98bad97d3209839b4e75, clickElement {id=f.7EC188200D782F0C66A100256FE30C8F.d.0729DEB937EBAED5C1CF6692355F8274.e.183}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34373}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:34373/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on linux (2d7047816baa98bad97d3209839b4e75)] -> id: secondopinion_submit]
-Session ID: 2d7047816baa98bad97d3209839b4e75
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at steps.SecondOpinionSteps.write_a_message_and_click_on_send_button(SecondOpinionSteps.java:83)
-	at ✽.write a message and click on send button(file:///home/himanshu/Desktop/B36-SPR101-JAVA/TestNG_Cucumber/src/test/resources/SparshHospital%20Testing/SecondOpinion.feature:20)
-]]></failure>
+  <testcase name="runScenario[&quot;To validate the Simple form functionality with multiple test data&quot;, &quot;Simple form feature&quot;](3)" classname="steps.SForm_TestRunner" time="5.86">
+    <system-out><![CDATA[Thank You for reaching out to us, Basanti TangAWali
+]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;To validate the Second Opinion functionality with multiple test data&quot;, &quot;Second Opinion link&quot;](4)" classname="runner.TestRunner" time="29.163">
-    <failure message="element click intercepted: Element is not clickable at point (645, 690)&#10;  (Session info: chrome=126.0.6478.182)&#10;Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-118-generic&apos;, java.version: &apos;22.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [708ca0c76b957c4c5e858da064322005, clickElement {id=f.99954A3348A5CE4A9D2941C104493C72.d.425140DDC17FE5104EAB8457134CD8C5.e.179}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34037}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:34037/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on linux (708ca0c76b957c4c5e858da064322005)] -&gt; id: secondopinion_submit]&#10;Session ID: 708ca0c76b957c4c5e858da064322005" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element is not clickable at point (645, 690)
-  (Session info: chrome=126.0.6478.182)
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-118-generic', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [708ca0c76b957c4c5e858da064322005, clickElement {id=f.99954A3348A5CE4A9D2941C104493C72.d.425140DDC17FE5104EAB8457134CD8C5.e.179}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:34037}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:34037/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on linux (708ca0c76b957c4c5e858da064322005)] -> id: secondopinion_submit]
-Session ID: 708ca0c76b957c4c5e858da064322005
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at steps.SecondOpinionSteps.write_a_message_and_click_on_send_button(SecondOpinionSteps.java:83)
-	at ✽.write a message and click on send button(file:///home/himanshu/Desktop/B36-SPR101-JAVA/TestNG_Cucumber/src/test/resources/SparshHospital%20Testing/SecondOpinion.feature:20)
-]]></failure>
+  <testcase name="runScenario[&quot;To validate the Simple form functionality with multiple test data&quot;, &quot;Simple form feature&quot;](4)" classname="steps.SForm_TestRunner" time="5.955">
+    <system-out><![CDATA[Thank You for reaching out to us, Veeru Thug
+]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;To validate the Second Opinion functionality with multiple test data&quot;, &quot;Second Opinion link&quot;](5)" classname="runner.TestRunner" time="24.49">
-    <failure message="element click intercepted: Element is not clickable at point (645, 690)&#10;  (Session info: chrome=126.0.6478.182)&#10;Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-118-generic&apos;, java.version: &apos;22.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [c221933240133ff129fed3f16f0f54e3, clickElement {id=f.7D04E92FFA465DF25542076145CB1376.d.0CEA805DDB32E951F3C0D6C253CEE656.e.184}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:41481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:41481/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on linux (c221933240133ff129fed3f16f0f54e3)] -&gt; id: secondopinion_submit]&#10;Session ID: c221933240133ff129fed3f16f0f54e3" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element is not clickable at point (645, 690)
-  (Session info: chrome=126.0.6478.182)
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-118-generic', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c221933240133ff129fed3f16f0f54e3, clickElement {id=f.7D04E92FFA465DF25542076145CB1376.d.0CEA805DDB32E951F3C0D6C253CEE656.e.184}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:41481}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:41481/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on linux (c221933240133ff129fed3f16f0f54e3)] -> id: secondopinion_submit]
-Session ID: c221933240133ff129fed3f16f0f54e3
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at steps.SecondOpinionSteps.write_a_message_and_click_on_send_button(SecondOpinionSteps.java:83)
-	at ✽.write a message and click on send button(file:///home/himanshu/Desktop/B36-SPR101-JAVA/TestNG_Cucumber/src/test/resources/SparshHospital%20Testing/SecondOpinion.feature:20)
-]]></failure>
+  <testcase name="runScenario[&quot;To validate the Simple form functionality with multiple test data&quot;, &quot;Simple form feature&quot;](5)" classname="steps.SForm_TestRunner" time="6.0">
+    <system-out><![CDATA[Thank You for reaching out to us, Jai Thug
+]]></system-out>
   </testcase>
-  <testcase name="runScenario[&quot;To validate the Second Opinion functionality with multiple test data&quot;, &quot;Second Opinion link&quot;](6)" classname="runner.TestRunner" time="44.53">
-    <failure message="element click intercepted: Element is not clickable at point (645, 679)&#10;  (Session info: chrome=126.0.6478.182)&#10;Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-118-generic&apos;, java.version: &apos;22.0.2&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [4b5627da8bf3da3a5e4e9b29e659e38a, clickElement {id=f.5D2BADD8468506457FDE312C5CE93238.d.48F0F2B46ABC647229651BE17E74CE77.e.181}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35371}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:35371/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on linux (4b5627da8bf3da3a5e4e9b29e659e38a)] -&gt; id: secondopinion_submit]&#10;Session ID: 4b5627da8bf3da3a5e4e9b29e659e38a" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
-element click intercepted: Element is not clickable at point (645, 679)
-  (Session info: chrome=126.0.6478.182)
-Build info: version: '4.23.0', revision: '4df0a231af'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-118-generic', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4b5627da8bf3da3a5e4e9b29e659e38a, clickElement {id=f.5D2BADD8468506457FDE312C5CE93238.d.48F0F2B46ABC647229651BE17E74CE77.e.181}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.182, chrome: {chromedriverVersion: 126.0.6478.182 (5b5d8292ddf..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:35371}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:35371/devtoo..., se:cdpVersion: 126.0.6478.182, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on linux (4b5627da8bf3da3a5e4e9b29e659e38a)] -> id: secondopinion_submit]
-Session ID: 4b5627da8bf3da3a5e4e9b29e659e38a
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at steps.SecondOpinionSteps.write_a_message_and_click_on_send_button(SecondOpinionSteps.java:83)
-	at ✽.write a message and click on send button(file:///home/himanshu/Desktop/B36-SPR101-JAVA/TestNG_Cucumber/src/test/resources/SparshHospital%20Testing/SecondOpinion.feature:20)
-]]></failure>
+  <testcase name="runScenario[&quot;To validate the Simple form functionality with multiple test data&quot;, &quot;Simple form feature&quot;](6)" classname="steps.SForm_TestRunner" time="7.107">
+    <system-out><![CDATA[Thank You for reaching out to us, Thakur Kanna
+]]></system-out>
   </testcase>
 </testsuite>
